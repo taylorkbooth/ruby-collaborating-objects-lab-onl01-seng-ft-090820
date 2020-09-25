@@ -40,11 +40,11 @@ class Artist
     self.all.detect { |artist| artist.name == name }
   end
 
-  def self.create(name)
-    artist = Artist.new(name)
-    artist.save
-    artist
-  end
+  # def self.create(name)
+  #   artist = Artist.new(name)
+  #   artist.save
+  #   artist
+  # end
 
 
   def print_songs
