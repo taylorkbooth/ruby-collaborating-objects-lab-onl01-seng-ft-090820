@@ -22,7 +22,7 @@ class Song
     song = self.new(song_info[1])
     song.artist_name = song_info[0]
     song
-    binding.pry
+  
   end
   
   def save
